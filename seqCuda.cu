@@ -28,7 +28,7 @@ int main()
 	
 	// Task 5: check the results agree
 	if (sumA == sumCheck) cout << "Test Succeeded!" << endl;
-	else { cerr << "Test Failed!" << endl; return(1);}
+	else { cerr << "Test Failed!" << endl; return(1); }
 	
 	return(0);
 }
